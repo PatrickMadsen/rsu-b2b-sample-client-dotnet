@@ -68,8 +68,8 @@ namespace UFSTWSSecuritySample
                     if (!response.IsSuccessStatusCode)
                     {
                         // To-do: Log error
-                    Console.WriteLine("Error");
-                    Console.WriteLine(responseEnvelope);
+                        Console.WriteLine("Error");
+                        Console.WriteLine(responseEnvelope);
                         return null;
                     }
 
